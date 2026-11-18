@@ -108,6 +108,8 @@
 > I din IDE finns det också alternativ för att pusha ändringar
 
 > ## Merge
+> Du mergar din egen branch till **dev**, aldrig till main.
+>
 > Välj branch du vill merge *till*
 > Välj branch du vill hämta från
 > Tryck på merge branch1 to branch2
