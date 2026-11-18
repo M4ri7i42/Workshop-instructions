@@ -31,7 +31,7 @@
 > Videon visar hur du gör detta i efterhand.
 >### MACOS
 >Git kommer i bundle med xcode i macOS men jag använder personligen Homebrew, 
->rekomenderar att ni gör det också då det är väldigt smidigt.
+>rekommenderar att ni gör det också då det är väldigt smidigt.
 >
 >#### Homebrew
 >klicka på länk: https://brew.sh
