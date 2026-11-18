@@ -111,3 +111,22 @@
 > Välj branch du vill merge *till*
 > Välj branch du vill hämta från
 > Tryck på merge branch1 to branch2
+
+> ## Mergekonflikter
+> När flera ändrar samma rad i samma fil vet git inte vems ändring som ska gälla. Då blir det en konflikt.
+> Det kommer att hända med *Secrets.txt*, eftersom alla skriver i slutet av den. Det är meningen.
+>
+> I filen markerar git konflikten så här:
+>
+>     <<<<<<< HEAD
+>     En annans fakta, Anna
+>     =======
+>     Ditt fakta, ditt namn
+>     >>>>>>> din-branch
+>
+> Så löser du den:
+> 1. Öppna filen, i GitHub Desktop via "Open in editor" eller direkt i din IDE.
+> 2. Behåll båda raderna och ta bort raderna med `<<<<<<<`, `=======` och `>>>>>>>`.
+> 3. Spara, committa och pusha.
+>
+> #### OBS! Radera aldrig någon annans rad för att bli av med konflikten.
