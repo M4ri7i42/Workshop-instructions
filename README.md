@@ -8,6 +8,13 @@
 >Eller när du klickar på länkar...
 >
 >Vi ska göra alla tre men du kan lita på mig ;)
+>
+>### Ditt namn och din integritet
+>Repot är publikt och ligger hos GitHub, ett amerikanskt företag. Allt du skriver i filerna och i dina commits kan alltså läsas av vem som helst.
+>
+>Vill du inte lagra ditt riktiga namn går det bra att använda ett anonymt alias, både i *Secrets.txt* och som användarnamn på GitHub. Visa då läraren vilket alias du använder, så att vi kan se att du har gjort uppgiften.
+>
+>Tänk på att namnet och e-postadressen som git är inställt med syns i varje commit. Använd aliaset där också. I GitHub Desktop hittar du inställningen under Options/Settings > Git.
 
 >## Installera git
 >
