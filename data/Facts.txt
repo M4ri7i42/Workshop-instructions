@@ -28,3 +28,13 @@
 28. Computers only understand zeros and ones, everything else is just abstraction.
 29. CAPTCHA stands for ‘Completely Automated Public Turing test to tell Computers and Humans Apart’.
 30. The cloud is just a fancy way of saying ‘someone else’s computer’.
+31. The first ‘computer bug’ was a real moth, found in a relay of the Harvard Mark II in 1947 and taped into the logbook.
+32. Grace Hopper developed one of the first compilers, A-0, in 1952.
+33. Python is named after the comedy group Monty Python, not the snake.
+34. During development, C# was called ‘Cool’, short for C-like Object Oriented Language.
+35. The name C# comes from the musical sharp sign, which raises a note by one step.
+36. The first website, made by Tim Berners-Lee at CERN in 1991, is still online.
+37. The Apollo 11 guidance computer had about 4 KB of RAM.
+38. Unix time counts seconds from 1 January 1970, and 32-bit counters run out on 19 January 2038.
+39. Linus Torvalds named Git after the British slang word for an unpleasant person, joking that he names all his projects after himself.
+40. Minecraft was created in Sweden by Markus Persson and was originally written in Java.
