@@ -5,7 +5,6 @@ class Program
     
     static void Main(string[] args)
     {
-        RandomFact fact = new RandomFact();
         WorkshopTask workshop = new WorkshopTask();
         bool run = true;
         while (run)
@@ -13,7 +12,7 @@ class Program
             Console.Clear();
             Console.WriteLine("Welcome to the Workshop Repository!");
             Console.WriteLine("What would you like to do?");
-            Console.WriteLine("1. Begin Workshop Task 1\n" +
+            Console.WriteLine("1. Begin Workshop\n" +
                               "2. Exit");
             string choice = Console.ReadLine() ?? "";
             switch (choice)

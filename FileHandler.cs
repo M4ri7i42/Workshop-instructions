@@ -11,7 +11,7 @@ public class FileHandler
             if (!File.Exists(_filePathFacts))
             {
                 Console.WriteLine("Facts file not found. Contact Support.");
-                return null;
+                return string.Empty;
             }
     
             string[] lines = File.ReadAllLines(_filePathFacts);
@@ -21,7 +21,7 @@ public class FileHandler
         catch (Exception ex)
         {
             Console.WriteLine($"An error occurred while reading the facts file: {ex.Message}");
-            return null;
+            return string.Empty;
         }
         
     }

@@ -64,7 +64,7 @@ public class WorkshopTask
         Thread.Sleep(_sleepTime);
         Console.WriteLine("Commit and push your changes to your branch.");
         Thread.Sleep(_sleepTime);
-        Console.WriteLine("Instructions on how to merge your branch is provided in README.md file.");
+        Console.WriteLine("Merge your branch into dev. Instructions are provided in the README.md file.");
         Thread.Sleep(_sleepTime);
         Console.WriteLine("Congratulations! You have completed the workshop tasks.");
         Console.ReadKey();
