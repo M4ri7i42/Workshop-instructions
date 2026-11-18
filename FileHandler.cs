@@ -4,7 +4,7 @@ public class FileHandler
 {
     private readonly string _filePathFacts = Path.Combine("data", "Facts.txt");
     
-    public string GetRandomFact(int randomNumber)
+    public string GetRandomFact()
     {
         try
         {
@@ -15,6 +15,7 @@ public class FileHandler
             }
     
             string[] lines = File.ReadAllLines(_filePathFacts);
+            int randomNumber = Random.Shared.Next(0, lines.Length);
             return lines[randomNumber];
         }
         catch (Exception ex)
